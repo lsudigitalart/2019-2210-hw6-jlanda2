@@ -7,12 +7,7 @@ HW: 7/Media: Load and display media, including images and fonts.
 Create an collage using found images and text that changes everytime it is viewed (or the broswer is refreshed). Think about how you are altering the original meaning behind the images and text you use through juxtapositon and composition. 
 
 ## Tech Notes
-
-### Animated Gifs
-If you are using **animated gifs** the first thing you need to do is include `<script src="p5.dom.js"></script>` in your index.html file inbetween referencing p5.js and sketch.js. You will also need to use the `createImg` function instead of `loadImage`. Additionally, you will need to use `imageVariableName.position(x,y)` to place the gif instead of `image(x,y)`.
-
-### Webfonts
-For fonts that you find of Google Fonts or other similar webstites you should include the link tag provided (`<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">`), in your index.html file under the script src tags in your header. 
+If you are using **animated gifs** you will need to use the `createImg` function instead of `loadImage`. Additionally, you will need to use `imageVariableName.position(x,y)` to place the gif instead of `image(x,y)`.
 
 ## Inspiration
   - Contemporary
